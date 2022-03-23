@@ -6,7 +6,9 @@
 
 ![grocery](grocery.PNG)
 
-[LIVE DEMO](https://react-slider-syl.netlify.app/)
+[LIVE DEMO](https://grocery-list-app-syl.netlify.app//)
+
+
 
 ## Built With
 
