@@ -41,7 +41,7 @@ const App = () => {
       setGrocery('');
       setEditID(null);
       setEdit(false);
-      showAlert(true, 'success', 'grocery had been edited');
+      showAlert(true, 'success', 'grocery has been edited');
     } else {
       showAlert(true, 'success', 'grocery added to the list');
       const newElement = {id: new Date().getTime().toString(), title: grocery}
@@ -59,7 +59,7 @@ const App = () => {
   }
 
   const handleDelete = (id) => {
-    showAlert(true, 'danger', 'A grocery deleted')
+    showAlert(true, 'danger', 'a grocery deleted')
     const newElements = elements.filter((element) => element.id !== id)
     setElements(newElements);
   }

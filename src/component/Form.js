@@ -8,7 +8,7 @@ const Form = ({handleChange, handleSubmit, showAlert, alert, elements, grocery, 
     <form onSubmit={handleSubmit} className="grocery-form">
       {alert.show && <Alert {...alert} removeAlert={() => showAlert()} elements={elements}/>}
 
-      <h3>grocery bud</h3>
+      <h3>grocery list</h3>
       <div className='form-control'>
         <input type="text" className="grocery" placeholder='e.g. eggs' value={grocery} onChange={handleChange} />
         <button className="submit-btn" type='submit'>
